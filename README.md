@@ -1,6 +1,3 @@
-
-This project is a FastAPI-based backend service that manages discount coupons and determines the best coupon for a user's cart based on rules like user tier, cart value, categories, and usage limits. It automatically evaluates all eligible coupons and selects the one giving the maximum discount, while respecting constraints such as expiry dates, eligibility conditions, and per-user usage limits.
-
 Built using Python, FastAPI, and Pydantic, the service demonstrates backend API design, business rule implementation, and decision-making logic commonly used in e-commerce platforms. It includes APIs to create coupons, list them, find the best coupon for a cart, and simulate coupon redemption, making it a simple example of a rule-based discount engine.
 A lightweight Coupon Engine API that lets businesses create, validate, and redeem discount codes.
 Ensures single-use protection using Redis, preventing duplicate redemptions.
